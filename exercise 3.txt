@@ -1,0 +1,145 @@
+QUESTION 1:
+
+Write a program in C to display the first 10 natural numbers.
+
+#include<stdio.h>
+
+int main() 
+{
+   int i;
+   for(i=1;i<=10;i++)
+   {
+       printf("%d ",i);
+   }
+}
+
+-----------------------------------------------------------------------------------------
+
+QUESTION 2:
+
+Write a C program to find the sum of first 10 natural numbers.
+
+#include<stdio.h>
+
+int main() {
+   int i,s=0;
+   printf("The first 10 natural number is: \n");
+   for(i=1;i<=10;i++){
+       printf("%d ",i);
+       s=s+a;
+   }
+   printf("\nThe Sum is : %d",s);
+}
+
+-------------------------------------------------------------------------------------------
+
+QUESTION 3:
+
+Write a program in C to read 10 numbers from keyboard and find their sum and average.
+
+#include <stdio.h>
+void main()
+{       
+    int i,a,s=0;
+	float average;
+	printf("Input the 10 numbers : \n");
+	for (i=1;i<=10;i++)
+	{
+                printf("Number-%d :\n",i);
+
+		scanf("%d",&a);
+		s +=a;
+	}
+	average=s/10.0;
+	printf("The sum of 10 no is : %d\nThe Average is : %f\n",s,average);
+ 
+}
+
+-------------------------------------------------------------------------------------------------
+
+QUESTION 4:
+
+Write a program in C to display the cube of the number upto given an integer.
+
+#include <stdio.h>
+void main()
+ {
+    int i,a;
+    printf("Input number of terms : \n");
+    scanf("%d", &a);
+    for(i=1;i<=a;i++)
+    {
+	 printf("Number is : %d and cube of the %d is :%d \n",i,i, (i*i*i));     
+    }
+ }
+
+--------------------------------------------------------------------------------------------------
+
+QUESTION 5:
+
+Write a program in C to make such a pattern like right angle triangle with a number which will repeat a number in a row. 
+#include <stdio.h>
+void main()
+{
+   int i,j,r;
+   printf("Input number of rows : \n");
+   scanf("%d",&r);
+   for(i=1;i<=r;i++)
+   {
+	for(j=1;j<=i;j++)
+	   printf("%d",i);
+	printf("\n");
+   }
+}
+
+
+
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
